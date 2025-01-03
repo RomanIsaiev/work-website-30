@@ -90,7 +90,7 @@ function initializeClockTwo(id, endtime) {
 //   var timeinterval = setInterval(updateClock, 1000);
 // }
 
-var deadline = "February 02 2025 00:00:00 GMT+0200";
+var deadline = "February 02 2026 00:00:00 GMT+0200";
 initializeClock("countdown", deadline);
 initializeClockTwo("countdown-two", deadline);
 // initializeClockThree("countdown-three", deadline);
