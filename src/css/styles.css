@@ -64,7 +64,34 @@ p {
   font-weight: 500;
   line-height: normal;
 
-  margin-bottom: 30px;
+  margin-bottom: 8px;
+}
+
+.achiv-container {
+  color: #171717;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-bottom: 16px;
+}
+
+.achiv-container p {
+  max-width: 136px;
+}
+
+.course-start.right {
+  text-align: right;
+}
+
+.achiv-container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 8px;
 }
 
 .start-course-container .box {
@@ -460,9 +487,24 @@ p {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 4px;
 }
 
-.author-name::after {
+.about-author-list.dot {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-author-list .list-item.dot {
+  list-style: disc;
+
+  font-weight: 400;
+}
+
+.about-author-list.dot::after {
   content: "";
   display: block;
 
