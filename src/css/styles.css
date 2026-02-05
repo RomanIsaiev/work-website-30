@@ -57,7 +57,7 @@ p {
 }
 
 .start-course-container {
-  color: #171717;
+  color: #fff;
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
@@ -68,7 +68,7 @@ p {
 }
 
 .achiv-container {
-  color: #171717;
+  color: #fff;
   font-family: Manrope;
   font-size: 12px;
   font-style: normal;
@@ -113,13 +113,14 @@ p {
 }
 
 .header-title {
-  color: #427be0;
+  color: #fff;
+  text-align: center;
   font-family: Unbounded;
-  font-size: 32px;
+  font-size: 27px;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.54px;
   text-transform: uppercase;
 
   margin-bottom: 251px;
@@ -127,12 +128,31 @@ p {
 
 .header-title span {
   color: #fa8c0c;
-  font-size: 28px;
-  letter-spacing: -0.56px;
+  text-align: center;
+  font-family: Unbounded;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
 }
 
 .hedaer-title-desc {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+
+  margin-bottom: 20px;
+}
+
+.timer-title-desc {
   color: #171717;
+  text-align: center;
   font-family: Manrope;
   font-size: 18px;
   font-style: normal;
@@ -142,13 +162,11 @@ p {
 
   max-width: 259px;
 
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 
 .header-button-container {
   position: relative;
-
-  margin-bottom: 30px;
 }
 
 .header-button {
@@ -181,9 +199,13 @@ p {
 
 /* header-sale-mark-pink */
 
+.bonus-section {
+  padding: 40px 0;
+}
+
 .header-sale-mark {
   position: absolute;
-  top: -35px;
+  top: -15px;
   right: -10px;
 }
 
@@ -327,6 +349,8 @@ p {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+
+  margin-bottom: 14px;
 }
 
 .gift-image {
@@ -479,32 +503,23 @@ p {
   margin-bottom: 20px;
 }
 
-.author-name {
-  color: #171717;
+.author-quote {
+  padding: 10px 20px;
+  color: #fff;
   text-align: center;
-  font-family: Manrope;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 4px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 115%; /* 16.1px */
+  border-radius: 10px;
+  background: #427be0;
+
+  max-width: 284px;
+  margin: 0 auto;
 }
 
-.about-author-list.dot {
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-author-list .list-item.dot {
-  list-style: disc;
-
-  font-weight: 400;
-}
-
-.about-author-list.dot::after {
+.author-info-list.list::before {
   content: "";
   display: block;
 
@@ -514,6 +529,47 @@ p {
   background: #171717;
 
   margin: 20px auto;
+}
+
+.author-name {
+  color: #171717;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.author-name span {
+  color: #fa8c0c;
+  font-size: 15px;
+}
+
+.about-author-list.dot {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto 20px;
+}
+
+.about-author-list .list-item.dot {
+  list-style: disc;
+}
+
+.about-author-list .list-item.dot p {
+  color: #171717;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 120%; /* 16.8px */
+  max-width: 230px;
+  font-weight: 400;
 }
 
 .author-info-list {
@@ -600,10 +656,6 @@ p {
   font-weight: 600;
   line-height: 120%; /* 28.8px */
   text-transform: uppercase;
-
-  max-width: 173px;
-  margin-left: auto;
-  margin-right: auto;
 
   margin-bottom: 20px;
 }
