@@ -34,6 +34,7 @@ p {
 }
 
 #fixedButton {
+  display: none;
   position: fixed;
   bottom: 40px;
   left: 50%;
