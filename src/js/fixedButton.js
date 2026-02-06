@@ -1,8 +1,8 @@
 window.onscroll = function () {
   var button = document.getElementById("fixedButton");
   if (
-    document.body.scrollTop > 700 ||
-    document.documentElement.scrollTop > 700
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
   ) {
     button.style.display = "block";
   } else {
