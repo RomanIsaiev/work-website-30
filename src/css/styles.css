@@ -59,9 +59,7 @@ p {
   margin-right: auto;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header {
     background-image: url(../images/header-background-mobile-2x.jpg);
   }
@@ -114,7 +112,7 @@ p {
 }
 
 .start-course-container::after {
-  content: "";
+  content: '';
   display: block;
 
   width: 100%;
@@ -311,7 +309,7 @@ p {
 }
 
 .countdown-doubledot {
-  content: "";
+  content: '';
   display: flex;
 
   height: 25px;
@@ -481,9 +479,7 @@ p {
   margin-right: auto;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about-author {
     background-image: url(../images/about-author-background-mobile-2x.jpg);
   }
@@ -531,7 +527,7 @@ p {
 }
 
 .author-info-list.list::before {
-  content: "";
+  content: '';
   display: block;
 
   width: 100px;
@@ -625,7 +621,7 @@ p {
 }
 
 .author-info-list .list-item:nth-child(3)::after {
-  content: "";
+  content: '';
   display: block;
 
   width: 100px;
@@ -970,7 +966,7 @@ p {
 }
 
 .wrapper-price-title::after {
-  content: "";
+  content: '';
   display: block;
   width: 100px;
   height: 1px;
@@ -1072,7 +1068,7 @@ p {
 }
 
 .countdown-doubledot-two {
-  content: "";
+  content: '';
   display: flex;
 
   height: 30px;
@@ -1226,12 +1222,12 @@ p {
 
 .footer {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 140px;
   background: #101010;
 }
 
 .footer-deals::after {
-  content: "";
+  content: '';
   display: block;
 
   width: 100px;
@@ -1239,12 +1235,7 @@ p {
 
   margin: 20px auto;
 
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    #fff 52.6%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 52.6%, rgba(255, 255, 255, 0) 100%);
 }
 
 .deals-list {
