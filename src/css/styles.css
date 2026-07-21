@@ -1238,6 +1238,25 @@ p {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 52.6%, rgba(255, 255, 255, 0) 100%);
 }
 
+.footer-warning {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 40px;
+}
+
+.footer-warning a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 .deals-list {
   display: flex;
   flex-direction: column;
